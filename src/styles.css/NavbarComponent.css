@@ -1,0 +1,31 @@
+.navbar-brand{
+  font-family: "Raleway", sans-serif ;
+  font-weight: 900;
+  font-size: 36px;
+}
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat';
+}
+.cart {
+  display: none;
+}
+form {
+  max-width: 286px;
+}
+
+@media screen and (min-width: 992px) {
+  .cart {
+    display: inline;
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+ form {
+  width: 200px;
+}
+
+}
